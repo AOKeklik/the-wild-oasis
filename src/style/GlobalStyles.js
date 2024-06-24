@@ -3,6 +3,7 @@ import { createGlobalStyle } from "styled-components";
 const GlobalStyles = createGlobalStyle`
 /* sm - 640px - md - 768px - lg - 1024px - xl - 1280px - 2xl - 1536px */
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sono:wght@200..800&display=swap');
 
 :root {
     /* basic */
@@ -56,6 +57,7 @@ const GlobalStyles = createGlobalStyle`
 
     /* differents */
     --ff-primary: "Outfit", sans-serif;
+    --ff-sono: "Sono", sans-serif;
     --gap: 0rem;
 
     /* Indigo */
@@ -127,6 +129,12 @@ input[type="checkbox"]:checked ~ .checkmark:after {display: block;}
 @media (min-width: 480px) {html {font-size: 53%;}}
 @media (min-width: 768px) {html {font-size: 55%;}}
 @media (min-width: 1024px) {html {font-size: 62.5%;}}
+
+/* anumations */
+@keyframes animate-spin {
+    from {transform: rotate(0deg)}
+    to {transform: rotate(360deg)}
+}
 `
 
 export default GlobalStyles
