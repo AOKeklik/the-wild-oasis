@@ -5,6 +5,7 @@ const Flex = styled.div`
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 2rem 0;
 
     gap: ${(props) => props.gap || 0}rem;  
 

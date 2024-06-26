@@ -42,7 +42,7 @@ export default function CabinRow  ({cabin}) {
         <p>Fits up tp {maxCapacity} guests</p>
         <Price>{formatCurrency(regularPrice)}</Price>
         <Discount>{formatCurrency(discount)}</Discount>
-        <Button disabled={isDeleting} onClick={() => mutate(cabinId)} size="lg" type="alert">DELETE</Button>
+        <Button disabled={isDeleting} onClick={() => mutate(cabinId)} size="sm" type="alert">DELETE</Button>
     </TableRow>
 }
 

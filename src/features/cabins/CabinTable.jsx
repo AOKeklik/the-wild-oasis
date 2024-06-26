@@ -12,7 +12,7 @@ const TableHeader = styled.header`
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     text-transform: uppercase;
-    background-color: var(--clr-gray-200);
+    background-color: var(--clr-gray-100);
     border-bottom: 1px solid var(--clr-gray-200);
 
     & > * {padding: 1rem 2rem;text-align: center;}
